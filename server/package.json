@@ -4,10 +4,11 @@
   "description": "A portfolio website built with the MERN stack.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "seed": "node seed.js"
-  },
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js",
+  "seed": "node seed.js",
+  "build": "react-scripts build"
+},
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
